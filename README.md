@@ -1,7 +1,9 @@
-Mozilla Study Groups
+BioData Club at OHSU - a Mozilla Study Group
 ============
 
-Welcome to [Mozilla Science Lab](https://www.mozillascience.org/)'s Study Group project! From here, we'll set you up with everything you need to start your own study group.
+Welcome to BioData Club at OHSU. BioData Club is an informal, on-campus meetup initiated by a group of OHSU students, staff, and faculty. We are supported by the OHSU Library and OHSU DMICE, and based on the Mozilla Science Lab Study Group model. We come together to share skills, ask questions, and learn new open research tools. We believe anyone can learn to program and are happy to help you start from scratch! Join us to write your first line of code, learn new data management and analysis skills, try your hand at teaching in an informal context - or just show up at our Hacky Hour co-working events to work on your own projects with company.
+
+Below, you'll find further documentation on [Mozilla Science Lab](https://www.mozillascience.org/)'s Study Group project as well as instructions for how to contribute to this repo, and how to start your own study group!
 
 ### Wait What's a 'Mozilla Study Group'?
 
