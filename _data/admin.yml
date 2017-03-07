@@ -1,0 +1,55 @@
+- name: Danielle Robinson
+  job title: Mozilla Fellow for Science 2016
+  degree: PhD, Neuroscience
+  github: daniellecrobinson
+  interests:
+    - R
+    - Data visualization
+    - Open data and data policy issues
+
+- name: Lilly Winfree, PhD
+  job title: Science and Data Analyst at the Monarch Initiative
+  degree: PhD, Neuroscience 2016
+  github: lwinfree
+  interests:
+    - R
+    - Python
+    - Data visualization
+
+- name: Letisha Wyatt, PhD
+  job title: Basic Science Liaison and Research Data Management Librarian
+  degree: PhD, Neuroscience 
+  github: lrwyatt
+  interests:
+    - Data management
+    - Data visualization 
+
+- name: Robin Champieux
+  job title: OHSU Scholarly communications Librarian
+  degree: MILS, Library Science
+  github: rchampieux
+  interests:
+    - Open science
+    - Open data
+    - Research impact
+    - Scientific communication
+    - Libraries
+
+- name: Daniela Saderi
+  job title: PhD Candidate in Neuroscience
+  degree: MS, Neuroscience
+  github: dasaderi 
+  interests:
+    - Open Science
+    - Python
+
+- name: Ted Laderas
+  job title: Instructor, DMICE
+  degree: PhD, Biomedical Informatics
+  github: laderast
+  interests:
+    - Open Science
+    - R/Python
+    - Data Science
+    - Interactive Visualization
+  
