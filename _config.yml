@@ -2,8 +2,8 @@
 #Follow these 2 steps to set up your site.
 
 #Step 1: give your study group a name and a short description:
-title: OHSU Code Club
-description: "We are a group of students and researchers dedicated to learning about and sharing scientific coding techniques and knowledge in an effort to improve scientific research."
+title: BioData Club
+description: "We are a group of OHSU students and researchers dedicated to learning about and sharing scientific coding techniques and knowledge in an effort to improve scientific research."
 
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
 
@@ -16,7 +16,7 @@ description: "We are a group of students and researchers dedicated to learning a
 # Optional Configuration
 # None of these things need to be changed - but feel free!
 
-headlineSmall: "Welcome OHSU Code Club!"
+headlineSmall: "Welcome BioData Club!"
 headlineMain: "Let's Work Together"
 avatar: "img/logos/Portland_Oregon_-_White_Stag_sign_at_dusk_Steve Morgan.jpg"
 
