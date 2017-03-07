@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contributing to OHSU Code Club
+title: Contributing to OHSU BioData Club
 ---
 
 ## Running a lesson
