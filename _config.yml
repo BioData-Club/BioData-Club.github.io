@@ -16,7 +16,7 @@ description: "We are a group of OHSU students and researchers dedicated to learn
 # Optional Configuration
 # None of these things need to be changed - but feel free!
 
-headlineSmall: "Welcome BioData Club!"
+headlineSmall: "Welcome to BioData Club!"
 headlineMain: "Let's Work Together"
 avatar: "img/logos/Portland_Oregon_-_White_Stag_sign_at_dusk_Steve Morgan.jpg"
 
@@ -28,8 +28,8 @@ avatar: "img/logos/Portland_Oregon_-_White_Stag_sign_at_dusk_Steve Morgan.jpg"
 # 3. set calendar_on: True.
 
 calendar_on: True
-calendar_embed_url: "https://www.google.com/calendar/embed?src=ohsucodeclub@gmail.com"
-calendar_ical_url: "https://www.google.com/calendar/ical/ohsucodeclub@gmail.com/public/basic.ics"
+calendar_embed_url: "https://calendar.google.com/calendar/embed?src=t8v2ij727ctg6upd3v8ampd8q4%40group.calendar.google.com&ctz=America/Los_Angeles"
+calendar_ical_url: "https://calendar.google.com/calendar/ical/t8v2ij727ctg6upd3v8ampd8q4%40group.calendar.google.com/public/basic.ics"
 
 # ===============================
 # Categories for sorting lessons.
