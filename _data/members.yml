@@ -97,3 +97,12 @@
      - R/Python/JS
      - Machine learning
      - Data management
+     
+- name: Aurora Blucher
+  degree: PhD Candidate, Bioinformatics & Computational Biology
+  github: ablucher
+  interests:
+     - R/Java/Python
+     - Probabilistic graphical models
+     - Data Visualization
+
