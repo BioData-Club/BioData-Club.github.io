@@ -7,7 +7,61 @@ title: 'Lesson Material'
 
 <div class="container">
 <div class="row">
-<div class="col-sm-6">
+<div class="col-sm-4">
+<h2>DMICE Presentations</h2>
+
+<h3>Markup</h3>
+
+<ul>
+  <li><a href="https://github.com/laderast/magic-of-markdown">The Magic of Markdown</a> (Ted Laderas)</li>
+  <li><a href="https://www.sharelatex.com/project/557bf6fa3a7173c33460c7e8">Introduction to LaTeX</a> (Eric Leung)</li>
+</ul>
+
+<h3>Python</h3>
+
+<ul>
+  <li><a href="https://github.com/keeppythonweird/catinabox">Unit Testing</a> (Alex Weston and Aurora Blucher)</li>
+  <li><a href="https://github.com/ryanmswan/tensorflow_mnist/">TensorFlow Tutorial</a> (Ryan Swan)</li>
+</ul>
+
+<h3>R</h3>
+
+<ul>
+  <li><a href="https://github.com/erictleung/tutorial-tidyverse">Intro to Data Carpentry</a> (Eric Leung and Ted Laderas)</li>
+  <li><a href="https://github.com/laderast/ggplot2-intro">ggplot2 Tutorial</a> (Ted Laderas)</li>
+  <li><a href="https://github.com/laderast/ggvis-intro">ggvis Tutorial</a> (Ted Laderas)</li>
+  <li><a href="https://github.com/laderast/shinyTutorial">Shiny Tutorial</a> (Ted Laderas)</li>
+  <li><a href="https://github.com/justmarkham/dplyr-tutorial">dplyr Tutorial</a> (Nathan Lazar)</li>
+</ul>
+
+<h3>UNIX</h3>
+
+<ul>
+  <li><a href="https://github.com/laderast/exacloudTutorial">Exacloud Tutorial</a> (Ryan Swan and Ted Laderas)</li>
+  <li><a href="https://github.com/greenstick/bootstrapping-package-management-on-exacloud">Bootstrap Package Management on Exacloud</a> (Ben Cordier)</li>
+  <li><a href="https://gist.github.com/laderast/119eff812ce76081ba5e941f1054f3a1">Stupid Unix Tricks</a> (Ted Laderas)</li>
+  <li><a href="https://github.com/erictleung/tutorial-vim">Vim Tutorial</a> (Eric Leung)</li>
+</ul>
+
+<h3>Git</h3>
+
+<ul>
+  <li><a href="https://github.com/ericearl/fancy_git">Advanced Git Tutorial</a> (Eric Earl)</li>
+</ul>
+
+<h3>Miscellaneous</h3>
+
+<ul>
+  <li><a href="https://github.com/greenstick/neo4j-tutorial">Graph Database Tutorial with Neo4j</a> (Ben Cordier, Ian Stavros, Eric Leung)</li>
+  <li><a href="http://www.nature.com/collections/qghhqm">Statistics for Biologists</a></li>
+  <li><a href="https://leanpub.com/modernscientist">How to Be a Modern Scientist</a></li>
+  <li><a href="https://raoofphysics.github.io/phd-starter-kit/">PhD Starter Kit</a></li>
+  <li><a href="http://redmonk.com/dberkholz/2012/11/06/what-can-data-scientists-learn-from-devops/">What Can Data Scientists Learn from DevOps</a></li>
+</ul>
+
+</div>  <!-- DMICE talks -->
+
+<div class="col-sm-4">
 <h2>By Topic</h2>
 {% for lang in site.languages %}
 <h3>{{ lang | capitalize }}</h3>
@@ -24,10 +78,10 @@ title: 'Lesson Material'
     {% endif %}
   {% endfor %}  <!-- node -->
 </ul>
-{% endfor %}  <!-- lang -->
-</div>
+{% endfor %}
+</div>  <!-- lang -->
 
-<div class="col-sm-6">
+<div class="col-sm-4">
 <h2>By Level</h2>
 {% for level in site.levels %}
 <h3>{{ level | capitalize }}</h3>
@@ -44,7 +98,8 @@ title: 'Lesson Material'
     {% endif %}
   {% endfor %}  <!-- node -->
 </ul>
-{% endfor %}  <!-- level -->
-</div>
-</div>
-</div>
+{% endfor %}
+</div> <!-- level -->
+
+</div> <!-- row -->
+</div> <!-- container -->
