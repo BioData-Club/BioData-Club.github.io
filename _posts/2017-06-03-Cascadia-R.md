@@ -1,7 +1,6 @@
 ---
 title: Cascadia R Conf
-text: An R conference serving the Cascadia-ish region (Oregon/Washington/BC). This is the first time this event has happened! Keynote by Vinay Prasad (www.vinayakkprasad.com)! Workshops by Charlotte Wickham (Happy R Users Purrr)
-and a beginer-friendly workshop by Chester Ismay & Ted Laderas (A gRadual intRoduction to the tidyverse). This event is of course a place to come together around R, but also an excuse to get together with like minded people across a larger part of the Cascades region. $5 registration for students!
+text: An R conference serving the Cascadia-ish region (Oregon/Washington/BC).
 location: OHSU CLSB
 link: https://cascadiarconf.com/
 date: 2017-06-03
