@@ -5,7 +5,18 @@ Welcome to BioData Club at OHSU. BioData Club is an informal, on-campus meetup i
 
 Below, you'll find further documentation on [Mozilla Science Lab](https://www.mozillascience.org/)'s Study Group project as well as instructions for how to contribute to this repo, and how to start your own study group!
 
-### Wait What's a 'Mozilla Study Group'?
+- [Wait What's a 'Mozilla Study Group'?](#wait-whats-a-mozilla-study-group)
+- [For Participants](#for-participants)
+- [For Organizers/Instructors](#for-organizersinstructors)
+  - [It's Broken, I Need Help](#its-broken-i-need-help)
+  - [Check out the Handbook](#check-out-the-handbook)
+- [How to Set Up Your Own Mozilla Study Group Website](#how-to-set-up-your-own-mozilla-study-group-website)
+  - [Optional: Setting up a Google Calendar for your Study Group](#optional-setting-up-a-google-calendar-for-your-study-group)
+- [How to Launch a New Event](#how-to-launch-a-new-event)
+- [How to Stay in Touch With Your Members](#how-to-stay-in-touch-with-your-members)
+- [Feature Your Community in the 'Who We Are' Section](#feature-your-community-in-the-who-we-are-section)
+
+## Wait What's a 'Mozilla Study Group'?
 
 Mozilla Study Groups are fun, informal meetups of your friends and colleagues from around your local institution or town to share skills, stories and ideas on using code for research. The goal is to create a friendly, no-pressure environment where people can share their work, ask for help on a coding problem, and learn and work together with their peers.
 
