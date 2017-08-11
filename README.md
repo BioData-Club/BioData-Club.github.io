@@ -5,6 +5,8 @@ Welcome to BioData Club at OHSU. BioData Club is an informal, on-campus meetup i
 
 Below, you'll find further documentation on [Mozilla Science Lab](https://www.mozillascience.org/)'s Study Group project as well as instructions for how to contribute to this repo, and how to start your own study group!
 
+**Table of Contents**
+
 - [Wait What's a 'Mozilla Study Group'?](#wait-whats-a-mozilla-study-group)
 - [For Participants](#for-participants)
 - [For Organizers/Instructors](#for-organizersinstructors)
