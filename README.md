@@ -17,6 +17,7 @@ Below, you'll find further documentation on [Mozilla Science Lab](https://www.mo
 - [How to Launch a New Event](#how-to-launch-a-new-event)
 - [How to Stay in Touch With Your Members](#how-to-stay-in-touch-with-your-members)
 - [Feature Your Community in the 'Who We Are' Section](#feature-your-community-in-the-who-we-are-section)
+- [Run Your Site Locally](#run-your-site-locally)
 
 ## Wait What's a 'Mozilla Study Group'?
 
@@ -129,3 +130,26 @@ Your website includes a gallery of participants in your Study Group; adding peop
     - list one to three
     - different interests
 ```
+
+## Run Your Site Locally
+
+You too can run and test this site locally on your computer. If you are using using macOS or other Unix based operating systems, you can run the following in a terminal once you have an installation of [Ruby](https://www.ruby-lang.org/en/downloads/).
+
+```bash
+# Install Jekyll framework and Bundler gems
+gem install jekyll bundler
+
+# Clone and go into the root directory of the site
+git clone https://github.com/BioData-Club/BioData-Club.github.io.git
+cd BioData-Club.github.io
+
+# Build site and preview your site locally
+bundle install
+bundle exec jekyll serve
+
+# If you're having issues, you can also run the following and removing the
+# Gemfile
+jekyll serve
+```
+
+The `bundle` packaging system makes sure you have the right dependencies. If you're wanting to run the site locally on a Windows computer, please check out the [instructions here](https://jekyllrb.com/docs/windows/).
