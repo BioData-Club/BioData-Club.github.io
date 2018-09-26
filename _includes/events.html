@@ -1,59 +1,27 @@
-<!-- Events Grid Section -->
-<section id="events" class="bg-light-gray">
-  <div class="container">
-    <div class="row"> <!-- Begin title row -->
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Events</h2>
-        <h3 class="section-subheading text-muted">Our upcoming and recent events:</h3>
-      </div>
-    </div> <!-- End of title row -->
+ {% assign event_title = event.title %}
+ {% assign event_date = event.date %}
+ {% assign event_location = event.location %}
+ {% assign event_time = event.time %}
+ {% if event.description %}
+   {% assign event_description = event.description %}
+ {% endif %}
+ {% if event.link %}
+   {% assign event_link = event.link %}
+ {% endif %}
 
-    <div class="col-lg-12"> <!-- Beginning of events list -->
-      <ul class='events'>
-        {% assign isEvent = 0 %}
-        {% for post in site.posts reversed %}
-          {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
-          {% capture postyear %}{{post.date | date: '%Y'}}{% endcapture %}
-          {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
-          {% capture postday %}{{post.date | date: '%j'}}{% endcapture %}
-          {% assign postday = postday | plus: 0 %}
-          {% assign nowday = nowday | minus: 2 %}
-          {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
-            {% assign isEvent = 1 %}
-            <li>
-              <a class='eventTitle' href="{{ post.link }}">{{ post.title }}, {{ post.location }}, {{ post.date | date: "%-d %B %Y"}}, {{post.startTime | date:"%I:%M %p"}} </a>
-              <div class='eventSub'>{{ post.text }}</div>
-            </li>
-          {% endif %}
-        {% endfor %}
-        {% if isEvent == 0 %}
-          <a class='eventTitle' href="{{ site.github.issues_url }}">Nothing yet! Propose an event here.</a>
-        {% else %}
-        {% endif %}
-      </ul>
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <a href="{{ site.github.issues_url }}" class="btn btn-xl eventSuggest">Suggest an Event</a>
-          <a href="{{ site.github.url }}/CONTRIBUTING" class="btn btn-xl eventSuggest">How to Lead a Session</a>
-        </div>
-      </div>
-    </div> <!-- End of list of events div -->
-
-    {% if site.calendar_on %}
-      <div class="col-lg-6">
-    {% else %}
-      <div class="col-lg-12">
+ 
+<div class="{{ include.type | default: " list " }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title">{{ event_title }}</h2>
+    <p>{{ event_date | date: "%B %d, %Y" }} from {{ event_time }}<br>
+     Location: {{ event_location }}<br>
+    {% if event_link %}
+        Link: <a href="{{ event_link }}"> {{ event_link }}</a>
     {% endif %}
-    </div>
 
-    {% if site.calendar_on %}
-      <div class="col-lg-12 text-center">
-        <h3 class="section-heading eventInstructions">Subscribe to our events calendar!</h3>
-        <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=t8v2ij727ctg6upd3v8ampd8q4%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="400" height="400" frameborder="0" scrolling="no"></iframe>
-        <h3 class="section-subheading text-muted eventSubinstructions">We also invite you to follow <a href="{{ site.calendar_embed_url }}" target="_blank">our calendar</a>, where events will be posted. </h3>
-        <h3 class="section-subheading text-muted eventSubinstructions">If you use Google calendar, you can add our calendar by pressing the "Google Calendar" button at the bottom-right of <a href="{{ site.calendar_embed_url }}" target="_blank">this page</a>.</h3>
-        <h3 class="section-subheading text-muted eventSubinstructions">If you use another calendar app, you can copy and paste <a href="{{ site.calendar_ical_url }}">this address</a> into any calendar product that supports the iCal format.</h3>
-      </div>
+    {% if event_description %}
+    <p class="archive__item-excerpt" itemprop="description">{{ event_description | markdownify }}</p>
     {% endif %}
-  </div> <!-- End of container -->
-</section> <!-- End of section -->
+
+  </article>
+</div>

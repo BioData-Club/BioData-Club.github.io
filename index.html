@@ -1,20 +1,63 @@
 ---
-layout: default
+title: Welcome to BioData Club!
+layout: splash
+classes: wide
+header:
+  overlay_color: "#333"
+  overlay_filter: "0.20"
+  overlay_image: /assets/img/biodataclubphoto.jpg
+excerpt: "Let's learn about data science together"
+intro:
+  -  image_path: /assets/img/Hex-BDP-small.png
+     alt: "BioData Club logo"
+     title: "What is BioData Club?"
+     excerpt: "BioData Club is an informal and interdisciplinary co-learning initiative. We come together to share skills, ask questions, and learn about data science skills and open research tools. The model brings together learners starting from scratch (write your first line of code!) data science experts, and everyone in between to gain new data skills, troubleshoot projects, practice teaching in an informal context, and connect with other data and open science enthusiasts. <br><br>
+The BioData Club Kit will help you start your own co-learning community! In addition to a website template, we’ve included a few of our most successful lessons, advice and resources for building a local co-learning club (we’ve leveraged a lot of good work from other organizations), and surveys for understanding your community's needs and goals.<br><br>"
+     url: http://github.com/biodataclubkit/biodataclubkit.github.io
+     btn_label: Download the Kit
+     btn_class: "btn--primary"
+events:
+  - title: "Events"
+    excerpt: "BioData Clubs host two types of events:  practical learning workshops and hacky hours, often linked by a shared theme.  Hacky hours are for networking.  People come to talk about their work, get feedback, and have fun!  Our goal is co-learning, and we believe we have a lot to teach each other."
+contact:
+  - title: "Contact Us"
+    excerpt: "Whether you're a beginner, intermediate, or expert, we want you to be involved with BioData Club."
+get_involved:
+  -  title: "Teach and Organize"
+     btn_label: "Learn More"
+     btn_class: "btn--primary"
+     url: /teaching/
+     excerpt: "We're all learners in BioData Club. If there's something you want to learn, we want to help you learn it."
+  -  title: "Slack"
+     excerpt: "Slack can be a great tool for facilating conversations and getting questions answered between BioData Club events."
+     url: https://slack.com/
+     btn_label: "Join Slack"
+     btn_class: "btn--primary"
+  -  title: "Mailing List"
+     excerpt: "We recommend setting up an open, unmoderated mailing list to announce events and communicate with community members."
+     btn_label: "Mailing List"
+     btn_class: "btn--primary"
+     url: http://tinyletter.com/biodataclub
 ---
+{% include feature_row %}
 
-<div class="home">
+<a name="about"></a>
+{% include feature_row id="intro" type = "left" %}
 
-  <h1>Posts</h1>
+<a name="events"></a>
+{% include feature_row id="events" type = "center" %}
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ site.github.url | replace:'http:','https:' }}/{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+{% assign sorted_events = site.events | sort: 'date' %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ site.github.url | replace:'http:','https:' }}/feed.xml">via RSS</a></p>
+{% capture now_moment %}{{ "today" | date: '%s' }}{% endcapture %}
 
-</div>
+{% for event in sorted_events %}
+    {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
+     {% if date > now_moment %}
+      {% include events.html %}
+      {% endif %}
+{% endfor %}
+
+<a name="contact"></a>
+{% include feature_row id="contact" type = "center" %}
+{% include feature_row id="get_involved" %}

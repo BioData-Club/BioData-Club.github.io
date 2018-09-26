@@ -1,0 +1,17 @@
+---
+title: Establishing a Co-learning Environment with BioData Club
+excerpt: "We at BioData Club believe in breaking down barriers between disciplines. By its very nature, Data Science is an interdisciplinary activity and requires a desire to learn and mutual respect between members across these disciplines. "
+---
+
+We at BioData Club believe in breaking down barriers between disciplines. By its very nature, Data Science is an interdisciplinary activity and requires a desire to learn and mutual respect between members across these disciplines. 
+
+We've started to outline the principles of BioData Club and how we practice them. Note that this is a living document and will change.
+
+1. *Breakdown Hierarchies within the Academic Setting*. We are not only multi-disciplinary, but we are also non-hierarchical within BioData Club. We consist of faculty, postdocs, staff, and students. We are united by a common goal of improving our skills and helping others to learn. 
+2. *Establish friendly learning by emphasizing psychological safety*. Our focus is on learning in a safe environment for all, especially beginners. To this end, we attempt to establish norms for co-learning and trust using tools like our [code of conduct](../code_of_conduct/), team teaching and learning, and a diverse planning committee.
+3. *Normalizing lifelong learning and teaching*. One barrier to learning and teaching is insecurity about one's own expertise. We emphasize the role of making mistakes when learning, especially by using techniques such as live coding when teaching a technique. 
+4. *Assessing Community Needs and Developing Workshops*. BioData Club is nothing without the interests of its members. We assess what our members want to learn and try to pair new learners with experts to present the material. We provide teachers with support and helpful feedback on their material, and try to test our material beforehand.
+5. *Provide students and academics useful skills that can be built on*. We believe that anyone can code and that gradual and gentle hands-on experience builds confidence in data science skills. Starting with [markdown](https://github.com/laderast/magic-of-markdown) and [git](https://github.com/probinso/introduction-git), we move beginners into [website building and management](https://biodata-club.github.io/githubPagesTutorial/), and then into more data science skills such as [R and the tidyverse](https://www.datacamp.com/courses/rbootcamp) and [data visualization](https://apreshill.github.io/ohsu-biodatavis/slides.html). 
+6. *Share materials openly when possible*. Where possible, our lessons and materials are shared openly on GitHub for use by others.
+7. *Encourage discussion and co-working on topics relevant to a wide audience*. We host hacky hours in order to discuss and discover issues in the BioData Club community, talking about topics such as how to be a modern scientist, visualization, 
+8. *Encourage cross discplinary and cross institute collaboration*. By building on this community founded on mutual respect and psychological safety, we believe that we can foster a culture of cross-disciplinary collaboration. Our members hail from diverse departments including neuroscience, cancer biology, informatics, systems science and public health. 

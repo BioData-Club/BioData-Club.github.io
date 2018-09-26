@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Events"
+    url: "/#events"
+  - title: "Lessons"
+    url: /lessons/
+  - title: "About"
+    url: "/teaching/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Contact"
+    url: "/#contact"

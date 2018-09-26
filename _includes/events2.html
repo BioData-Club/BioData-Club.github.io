@@ -1,0 +1,23 @@
+ {% assign event_title = event.title %}
+ {% assign event_date = event.date %}
+ {% assign event_location = event.location %}
+ {% assign event_time = event.time %}
+ {% if event.description %}
+   {% assign event_description = event.description %}
+ {% endif %}
+ {% if event.link %}
+   {% assign event_link = event.link %}
+ {% endif %}
+
+
+    <h2 class="archive__item-title">{{ event_title }}</h2>
+    <p>{{ event_date | date: "%B %d, %Y" }} at {{ event_time }}<br>
+     Location: {{ event_location }}<br>
+    {% if event_link %}
+        Link: <a href="{{ event_link }}"> {{ event_link }}</a>
+    {% endif %}
+
+    {% if event_description %}
+    <p class="archive__item-excerpt" itemprop="description">Description:{{ event_description | markdownify }}</p>
+    {% endif %}
+
