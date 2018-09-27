@@ -1,8 +1,7 @@
 ---
-title: "The Magic of Markdown"
-date: 2018-10-05
-time: "4:00 - 5:30 PM"
-location: "Choose a location that facilitates discussion and co-learning.  This means thinking about not only the technology a space provides, but also the face-to-face interaction it will allow"
-description: "Create a welcoming description of your event.  Include a description of the learning outcomes and any prework (such as software downloads) attendees should accomplish."
-link: "post a link to the open learning materials"
+title: "Welcome Hacky Hour"
+date: 2018-10-12
+time: "4:00 - 6:00 PM"
+location: "Cha Cha Cha South Waterfront: 3135 SW Moody Ave, Portland OR"
+description: "Join us for our welcome hacky hour and meet members of BioData Club in a Friendly setting. There will be food, drinks, and discussion about what you want to see from BioData Club."
 ---
