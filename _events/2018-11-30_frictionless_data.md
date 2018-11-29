@@ -9,5 +9,5 @@ description: "In this hands-on workshop, Lilly Winfree will introduce the Fricti
 2) validate datasets; and if this is a regular part of their workflow, how to automatically do so every time a dataset is updated.
 3) explore frictionless data libraries in several languages (R, Python, Javascript, etc). 
 
-[Please register here](https://www.surveymonkey.com/r/JQLTYCH)."
+[Please register here](https://www.surveymonkey.com/r/JQLTYCH) and bring a laptop, and a dataset. Beginners Welcome!."
 ---
