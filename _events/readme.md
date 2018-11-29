@@ -20,9 +20,3 @@ description: "Here's an example of an event that can go on your calendar. When i
 link: "http://github.com/"
 ---
 ```
-
-## Adding A Page To the Site and the Menu
-
-## Acknowledgements
-
-BioData Club Kit is partially funded by 
