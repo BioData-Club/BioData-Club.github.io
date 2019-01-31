@@ -27,6 +27,6 @@ remotes::install_github("laderast/burro")
 
 ### If you don't have R/RStudio Installed
 
-Don't fear! You can use RStudio Cloud, which is easy to use and setup. If you have time, please sign up for an account on RStudio Cloud: http://rstudio.cloud 
+Don't fear! You can use RStudio Cloud, which is easy to use and setup. If you have time, please sign up for an account on RStudio Cloud: [http://rstudio.cloud](http://rstudio.cloud)
 
 Please note that RStudio Cloud is an online service, so consider this if your data needs to be private or protected. If you don't have a dataset that you can use, there are some example datasets you can explore.
