@@ -3,6 +3,8 @@ title: Data Exploration Hacky Hour
 layout: single
 ---
 
+# Data Exploration Hacky Hour
+
 February 8, 2019  
 4:30-6:00 PM  
 F&B Cafe Marquam Hill  
