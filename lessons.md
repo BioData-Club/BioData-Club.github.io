@@ -8,13 +8,17 @@ Here are past topics and workshops from BioData Club. If you want us to do anoth
 
 # Workshops
 
+## [Data Scavenger Hunt: NHANES](https://laderast.github.io/nhanes_explore)
+
+This workshop introduces you to the basics bethind Exploratory Data Analysis, by exploring associations between outcomes such as Depression, Type 2 Diabetes, and Physical Activity with an easy to use web app. Let's explore and teach each other about the NHANES (National Health and Nutrition Examination Survey) dataset.
+
 ## [ The Magic of Markdown](https://github.com/laderast/magic-of-markdown)
 
-This workshop introduced people to Markdown, an easy to learn format to save written documents in. Once you have a document in Markdown, you can transform it into all sort of outputs: from webpages, slides, PDF documents, and even Reproducible Analysis. 
+This workshop introduces you to Markdown, an easy to learn format to save written documents in. Once you have a document in Markdown, you can transform it into all sort of outputs: from webpages, slides, PDF documents, and even Reproducible Analysis. 
 
 ## [ Setting up a GitHub Page](https://github.com/BioData-Club/githubPagesTutorial)
 
-Once you know Markdown, you can now setup your own personal GitHub Page! We cover how to personalize it and add posts in Markdown. 
+Once you know Markdown, you can now setup your own personal GitHub Page, with your academic CV and other accomplishments! We cover how to personalize it and add posts in Markdown. 
 
 ## [ Git for Collaboration](https://github.com/probinso/introduction-git)
 
