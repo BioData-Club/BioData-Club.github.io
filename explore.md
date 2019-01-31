@@ -12,7 +12,7 @@ F&B Cafe Marquam Hill
 
 Everyone is welcome, no experience required!
 
-Bring a laptop and your own dataset and we’ll set you up to explore your data with burro (http://laderast.github.io/burro), which lets you explore your data with an easy to use app. 
+Bring a laptop and your own dataset and we’ll set you up to explore your data with burro ([http://laderast.github.io/burro](http://laderast.github.io/burro)), which lets you explore your data with an easy to use app. 
 
 Or if there’s a public dataset that looks interesting to explore, send us a link (laderast@ohsu.edu) and we’ll set up an app to look at it together. 
 
@@ -20,7 +20,7 @@ Or if there’s a public dataset that looks interesting to explore, send us a li
 
 ### If you already have R/Rstudio Installed
 
-Run these commands:
+If you have R and RStudio installed on your computer, you can setup by running these commands:
 
 ```
 install.packages("remotes")
