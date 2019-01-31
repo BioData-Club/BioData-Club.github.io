@@ -1,5 +1,5 @@
 ---
-title: "Scavenger Hunt Hacky Hour"
+title: "Data Exploration Hacky Hour"
 date: 2019-02-08
 time: "4:30- 6:00 PM"
 location: "F&B Cafe Marquam Hill (3460 SW US Veterans Hospital Rd)"
