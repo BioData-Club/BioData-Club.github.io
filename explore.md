@@ -1,11 +1,12 @@
 ---
 title: Data Exploration Hacky Hour
+layout: single
 ---
 
-February 8, 2019 
-4:30-6:00 PM
-F&B Cafe Marquam Hill
-3460 SW US Veterans Hospital Rd.
+February 8, 2019  
+4:30-6:00 PM  
+F&B Cafe Marquam Hill  
+3460 SW US Veterans Hospital Rd.  
 
 Everyone is welcome, no experience required!
 
