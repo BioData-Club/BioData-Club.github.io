@@ -1,6 +1,6 @@
 ---
 title: Data Exploration Hacky Hour
-layout: splash
+layout: single
 ---
 
 February 8, 2019  
