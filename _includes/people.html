@@ -1,0 +1,22 @@
+
+{% assign include.type = "grid" %}
+    {% if person.photo %}
+    {% assign photo = person.photo %}
+    {% else %}
+    {% assign photo = "/assets/img/no-photo.jpg" %}
+    {% endif %}
+
+  
+    <div class="element-item {{ person.department }} {{ person.research_interests | join: " " }} grid-item">
+        <a href="{{ person.link }}"><img src=
+          "{{ photo }}"
+        alt="{{ person.first_name}} {{person.last_name}}"> </a><br/> 
+      <b>  
+      {% if person.link and person.first_name and person.last_name %}
+        <a href="{{ person.link }}">{{ person.first_name }} {{ person.last_name}}</a> 
+      {% else %}
+        <a href="{{ person.link }}">{{ title }}</a>
+      {% endif %}
+    </b>,<em>{{ person.title }}, {{ person.department | join: ", "}}</em> <br>
+    <b>Research Interests:</b> {{ person.research_interests | join: ", " }}<br>
+  </div>

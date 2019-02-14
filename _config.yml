@@ -178,6 +178,7 @@ incremental: false
 # Collections
 collections:
 -  events
+-  people
 
 
 # Markdown Processing
