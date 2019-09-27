@@ -12,7 +12,7 @@
 
     <h2 class="archive__item-title">{{ event_title }}</h2>
     <p>{{ event_date | date: "%B %d, %Y" }} at {{ event_time }}<br>
-     Location: {{ event_location }}<br>
+     Location: {{ event_location | markdownify }}<br>
     {% if event_link %}
         Link: <a href="{{ event_link }}"> {{ event_link }}</a>
     {% endif %}
