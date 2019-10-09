@@ -9,6 +9,9 @@
  {% if event.link %}
    {% assign event_link = event.link %}
  {% endif %}
+ {% if event.location_url %}
+   {% assign event_location_url = event.location_url %}
+ {% endif %}
 
 
     <h2 class="archive__item-title">{{ event_title }}</h2>
