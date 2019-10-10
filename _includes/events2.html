@@ -7,6 +7,8 @@
  {% endif %}
  {% if event.link %}
    {% assign event_link = event.link %}
+  {% else %}
+    {% assign event_link = nil %}
  {% endif %}
  {% if event.location_url %}
    {% assign event_location_url = event.location_url %}
