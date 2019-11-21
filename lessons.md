@@ -24,7 +24,7 @@ Once you know Markdown, you can now setup your own personal GitHub Page, with yo
 
 This is a workshop introducing you to Git and GitHub. Learn the basics of Git by sorting panels from Edward Gorey's *Gashlycrumb Tinies*.
 
-## [R-Bootcamp](https://www.datacamp.com/courses/rbootcamp)
+## [R-Bootcamp](https://r-bootcamp.netlify.com)
 
 This was a four part course created on DataCamp to introduce everyone to visualizing, data wrangling, and simple statistics with `tidyverse` packages.
 
