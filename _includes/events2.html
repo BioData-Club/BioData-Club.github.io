@@ -7,12 +7,21 @@
  {% endif %}
  {% if event.link %}
    {% assign event_link = event.link %}
+  {% else %}
+    {% assign event_link = nil %}
+ {% endif %}
+ {% if event.location_url %}
+   {% assign event_location_url = event.location_url %}
  {% endif %}
 
 
     <h2 class="archive__item-title">{{ event_title }}</h2>
     <p>{{ event_date | date: "%B %d, %Y" }} at {{ event_time }}<br>
+    {% if event_location_url %}
+     Location: <a href="{{ event_location_url }}"> {{ event_location }} </a> <br>
+    {% else %}
      Location: {{ event_location }}<br>
+    {% endif %}
     {% if event_link %}
         Link: <a href="{{ event_link }}"> {{ event_link }}</a>
     {% endif %}

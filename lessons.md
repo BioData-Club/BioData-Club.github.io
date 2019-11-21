@@ -22,7 +22,7 @@ Once you know Markdown, you can now setup your own personal GitHub Page, with yo
 
 ## [ Git for Collaboration](https://github.com/probinso/introduction-git)
 
-This is a workshop introducing you to Git and GitHub. Learn the basics of Git by sorting panels from Edward Gorey's *Gashlycrumb Tinies*.
+This is a workshop introducing you to Git and GitHub. Learn the basics of Git by sorting panels from Edward Gorey's *Gashlycrumb Tinies*. In order to host the talk, please refer to these [setup/management scripts](https://github.com/probinso/ABC).
 
 ## [R-Bootcamp](https://r-bootcamp.netlify.com)
 

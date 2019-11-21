@@ -11,30 +11,26 @@ intro:
   -  image_path: /assets/img/Hex-BDP-small.png
      alt: "BioData Club logo"
      title: "What is BioData Club?"
-     excerpt: "BioData Club is an informal community at OHSU dedicated to promoting a fun and supportive culture of interdisciplinary
-    co-learning in data science skills and open science principles. We host workshops, along with social events where you
-    can work on personal projects among friends. We welcome everyone at all skill levels who aim to better their skills in
-    all things data. We want to replace statistics anxiety and code fear with inspiration and motivation to learn and
-    share.<br><br>"
+     excerpt: "BioData Club is an interdisciplinary community at OHSU dedicated to promoting a fun and supportive culture of co-learning in data science skills and open science principles. We host workshops and social events where attendees can learn and work on projects among friends and colleagues. Biodata Club welcomes everyone who wants to better their know-how in all things data, regardless of skill level. We want to replace statistics anxiety and code fear with inspiration and motivation to learn and share. BioData Club is supported by the [OHSU Library](https://www.ohsu.edu/library) and [DMICE](https://www.ohsu.edu/school-of-medicine/medical-informatics-and-clinical-epidemiology).<br><br>"
 events:
   - title: "Events"
-    excerpt: "BioData Clubs host two types of events:  practical learning workshops and hacky hours, often linked by a shared theme.  Hacky hours are for networking.  People come to talk about their work, get feedback, and have fun!  Our goal is co-learning, and we believe we have a lot to teach each other."
+    excerpt: "BioData Clubs host two types of events: practical learning workshops and hacky hours, often linked by a shared theme.  Hacky hours are for networking.  People come to talk about their work, get feedback, and have fun!  Our goal is co-learning, and we believe we have a lot to teach each other."
 contact:
-  - title: "Contact Us"
+  - title: "Contact Us and Get Involved"
     excerpt: "Whether you're a beginner, intermediate, or expert, we want you to be involved with BioData Club."
 get_involved:
-  -  title: "Suggest and Teach"
+  -  title: "Suggest a Workshop"
      btn_label: "Suggest an Event"
      btn_class: "btn--primary"
      url: /teaching/
-     excerpt: "We're all learners in BioData Club. If there's something you want to learn, we want to help you learn it.  Suggest an event, and if you're interested in helping teach it, we'll help you!"
+     excerpt: "We're all learners in BioData Club. Request a workshop, and if you are interested in helping teach it, we'll support you!"
   -  title: "Slack"
-     excerpt: "Join the BioData Club slack if you have data science related questions. Everyone with an ohsu.edu, pdx.edu, and reed.edu email can sign up by themselves. If you're outside of these addresses, please email laderast@ohsu.edu for an invite."
+     excerpt: "Join the BioData Club slack team. Everyone with an ohsu.edu, pdx.edu, and reed.edu email can sign up by themselves. If you're outside of these addresses, please email laderast@ohsu.edu for an invite."
      url: https://biodata-club.slack.com/
      btn_label: "Join Slack"
      btn_class: "btn--primary"
   -  title: "Mailing List"
-     excerpt: "Join our mailing list for occasional updates. Note this link only works within the OHSU firewall. If you're off campus, please email laderast@ohsu.edu to join."
+     excerpt: "Join the mailing list.This link only works within the OHSU firewall. If you're off campus, please email laderast@ohsu.edu to join."
      btn_label: "Mailing List"
      btn_class: "btn--primary"
      url: http://mailman.ohsu.edu/cgi-bin/mailman/listinfo/biodata-club
@@ -54,7 +50,7 @@ get_involved:
 {% for event in sorted_events %}
     {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
      {% if date > now_moment %}
-      {% include events.html %}
+      {% include events2.html %}
       {% endif %}
 {% endfor %}
 
