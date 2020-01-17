@@ -1,0 +1,31 @@
+ {% assign event_title = event.title %}
+ {% assign event_date = event.date %}
+ {% assign event_location = event.location %}
+ {% assign event_time = event.time %}
+ {% if event.description %}
+   {% assign event_description = event.description %}
+ {% endif %}
+ {% if event.link %}
+   {% assign event_link = event.link %}
+  {% else %}
+    {% assign event_link = nil %}
+ {% endif %}
+ {% if event.location_url %}
+   {% assign event_location_url = event.location_url %}
+ {% endif %}
+
+
+    <h2 class="archive__item-title">{{ event_title }}</h2>
+    {% if event_description %}
+    <p class="archive__item-excerpt" itemprop="description">{{ event_description | markdownify }}</p>
+    {% endif %}
+    {% if event.recording %}
+      <a href = "{{event.recording}}" class = "btn btn--info">Recording</a>
+    {% endif %}
+    {% if event.slides %}
+      <a href = "{{event.slides}}" class = "btn btn--info">Slides</a>
+    {% endif %}
+    {% if event.code%}
+      <a href = "{{event.code}}" class = "btn btn--info">Code</a>
+    {% endif %}
+

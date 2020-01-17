@@ -5,12 +5,14 @@ layout: single
 
 Here are past topics and workshops from BioData Club. If you want us to do another workshop, please let us know!
 
-
 # Workshops
 
-## [Data Scavenger Hunt: NHANES](https://laderast.github.io/nhanes_explore)
-
-This workshop introduces you to the basics bethind Exploratory Data Analysis, by exploring associations between outcomes such as Depression, Type 2 Diabetes, and Physical Activity with an easy to use web app. Let's explore and teach each other about the NHANES (National Health and Nutrition Examination Survey) dataset.
+{% for event in sorted_events %}
+    {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
+     {% if date < now_moment and event.event_type == "workshop" %}
+      {% include past_events.html %}
+      {% endif %}
+{% endfor %}
 
 ## [ The Magic of Markdown](https://github.com/laderast/magic-of-markdown)
 
