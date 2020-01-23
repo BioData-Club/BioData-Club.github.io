@@ -4,6 +4,8 @@ main:
     url: "/#events"
   - title: "Lessons"
     url: /lessons/
+  - title: "Code of Conduct"
+    url: /code_of_conduct/
   - title: "About"
     url: "/teaching/"
   - title: "Blog"
