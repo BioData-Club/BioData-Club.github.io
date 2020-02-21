@@ -51,7 +51,7 @@ email:
 
 {% assign sorted_events = site.events | sort: 'date' %}
 
-{% capture now_moment %}{{ "today" | date: '%s' }}{% endcapture %}
+{% capture now_moment %}{{ "today" | date: '%s' | plus: 172800 }}{% endcapture %}
 
 {% for event in sorted_events %}
     {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
