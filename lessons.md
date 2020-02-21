@@ -3,9 +3,13 @@ title: Lesson Material
 layout: single
 ---
 
-Here are past topics and workshops from BioData Club. If you want us to do another workshop, please let us know!
+Here are past topics and workshops from BioData Club, sorted by Date they were given. If you want us to do another workshop, please let us know!
 
 # Workshops
+
+{% include feature_row id="events" type = "center" %}
+{% assign sorted_events = site.events | sort: 'date' | reverse %}
+{% capture now_moment %}{{ "today" | date: '%s' }}{% endcapture %}
 
 {% for event in sorted_events %}
     {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
@@ -26,9 +30,11 @@ Once you know Markdown, you can now setup your own personal GitHub Page, with yo
 
 This is a workshop introducing you to Git and GitHub. Learn the basics of Git by sorting panels from Edward Gorey's *Gashlycrumb Tinies*. In order to host the talk, please refer to these [setup/management scripts](https://github.com/probinso/ABC).
 
+# Educational Resources
+
 ## [R-Bootcamp](https://r-bootcamp.netlify.com)
 
-This was a four part course created on DataCamp to introduce everyone to visualizing, data wrangling, and simple statistics with `tidyverse` packages.
+This was a four part course that is free that introduces everyone to visualizing, data wrangling, and simple statistics with `tidyverse` packages.
 
 # Discussion Topics
 
@@ -51,13 +57,3 @@ Alison Presmanes Hill gave a talk for our visualization hacky hour about how she
 We at BioData Club are cross-disciplinary by nature. What does it take to be a good cross-disciplinary collaborator?
 
 # Events/Workshops by Date
-
-<div>
-{% assign sorted_events = site.events | sort: 'date' %}
-
-{% for event in sorted_events %} 
-    {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %} 
-     {% if date < now_moment %}
-      {% include events2.html %}
-      {% endif %}
-{% endfor %}
