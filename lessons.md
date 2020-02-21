@@ -7,16 +7,6 @@ layout: splash
 
 Here are past topics and workshops from BioData Club, sorted by Date they were given. If you want us to do another workshop, [please let us know](https://biodata-club.github.io/teaching/)!
 
-{% assign sorted_events = site.events | sort: 'date' | reverse %}
-{% capture now_moment %}{{ "today" | date: '%s' | plus: 0 }}{% endcapture %}
-
-{% for event in sorted_events %}
-    {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
-     {% if date < now_moment and event.event_type == "workshop" %}
-      {% include past_events.html %}
-      {% endif %}
-{% endfor %}
-
 ## [ The Magic of Markdown](https://github.com/laderast/magic-of-markdown)
 
 This workshop introduces you to Markdown, an easy to learn format to save written documents in. Once you have a document in Markdown, you can transform it into all sort of outputs: from webpages, slides, PDF documents, and even Reproducible Analysis. 
@@ -55,4 +45,3 @@ Alison Presmanes Hill gave a talk for our visualization hacky hour about how she
 
 We at BioData Club are cross-disciplinary by nature. What does it take to be a good cross-disciplinary collaborator?
 
-# Events/Workshops by Date
