@@ -54,7 +54,7 @@ email:
 {% capture now_moment %}{{ "today" | date: '%s' | plus: 172800 }}{% endcapture %}
 
 {% for event in sorted_events %}
-    {% capture date %}{{ event.date | date: '%s' | minus: 172800 }}{% endcapture %}
+    {% capture date %}{{ event.date | date: '%s' | minus: 0 }}{% endcapture %}
      {% if date > now_moment %}
       {% include events2.html %}
       {% endif %}
