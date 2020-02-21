@@ -39,17 +39,18 @@
   {% endif %}
 
 
-<h2 class="archive__item-title">{{ event_title }}</h2>
-{% if event_description %}
-{{ event_description | markdownify }}
+<h2 class="archive__item-title">{{ event.title }}</h2>
+{% if event.description %}
+{{ event.description | markdownify }}
 {% endif %}
-{% if event_recording %}
-<a href="{{ event_recording }}" class="btn btn--info">Recording</a>
+<div>
+{% if event.recording %}
+<a href="{{ event.recording }}" class="btn btn--info">Recording</a>
 {% endif %}
-{% if event_slides %}
-<a href="{{ event_slides }}" class="btn btn--info">Slides</a>
+{% if event.slides %}
+<a href="{{ event.slides }}" class="btn btn--info">Slides</a>
 {% endif %}
-{% if event_code %}
-<a href="{{event_code}}" class="btn btn--info">Code</a>
+{% if event.code %}
+<a href="{{event.code}}" class="btn btn--info">Code</a>
 {% endif %}
-
+</div>
