@@ -25,8 +25,8 @@ get_involved:
      url: /teaching/
      excerpt: "We're all learners in BioData Club. Request a workshop, and if you are interested in helping teach it, we'll support you!"
   -  title: "Slack"
-     excerpt: "Join the BioData Club slack team. Everyone with an ohsu.edu, pdx.edu, and reed.edu email can sign up by themselves. If you're outside of these addresses, please email laderast@ohsu.edu for an invite."
-     url: https://biodata-club.slack.com/
+     excerpt: "Join the BioData Club slack workspace and be part of our co-learning community. Everyone is welcome. Ask Questions and team up with other members."
+     url: https://join.slack.com/t/biodata-club/shared_invite/enQtOTYzODkxNzY3MDQ2LWI1ZjhhNjkzMWY0ZTAzZjc1ODMzNGQyNWNjYTE3MmYzYjgzMjZmNzU3OWZiOWE0YjU1NjMzNTcxZjJjMTQ1ZjA
      btn_label: "Join Slack"
      btn_class: "btn--primary"
   -  title: "Mailing List"
@@ -34,6 +34,12 @@ get_involved:
      btn_label: "Mailing List"
      btn_class: "btn--primary"
      url: http://mailman.ohsu.edu/cgi-bin/mailman/listinfo/biodata-club
+email:
+  -  title: "Email us"
+     excerpt: "Mail the organizing team at bdc-organizers@ohsu.edu."
+     btn_label: "Email the Team"
+     btn_class: "btn--primary"
+     url: "mailto:bdc-organizers@ohsu.edu"
 ---
 {% include feature_row %}
 
@@ -45,7 +51,7 @@ get_involved:
 
 {% assign sorted_events = site.events | sort: 'date' %}
 
-{% capture now_moment %}{{ "today" | date: '%s' }}{% endcapture %}
+{% capture now_moment %}{{ "today" | date: '%s' | plus: 172800 }}{% endcapture %}
 
 {% for event in sorted_events %}
     {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
@@ -57,3 +63,4 @@ get_involved:
 <a name="contact"></a>
 {% include feature_row id="contact" type = "center" %}
 {% include feature_row id="get_involved" %}
+{% include feature_row id="email" type= "center" %}
