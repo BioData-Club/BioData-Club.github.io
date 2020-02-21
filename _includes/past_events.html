@@ -26,7 +26,7 @@
 
 <h2 class="archive__item-title">{{ event_title }}</h2>
 {% if event_description %}
-<p>{{ event_description | markdownify }}</p>
+{{ event_description | markdownify }}
 {% endif %}
 {% if event_recording %}
 <a href="{{ event_recording }}" class="btn btn--info">Recording</a>
