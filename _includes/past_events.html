@@ -14,18 +14,17 @@
    {% assign event_location_url = event.location_url %}
  {% endif %}
 
-
     <h2 >{{ event_title }}</h2>
     {% if event_description %}
     <p>{{ event_description }}</p>
     {% endif %}
     {% if event.recording %}
-      <a href = "{{event.recording}}" class = "btn btn--info">Recording</a>
+      [Recording]({{event.recording}}){: .btn .btn--info}
     {% endif %}
     {% if event.slides %}
-      <a href = "{{event.slides}}" class = "btn btn--info">Slides</a>
-    {% endif %}
+      [Slides]({{event.slides}}){: .btn .btn--info}
+        {% endif %}
     {% if event.code%}
-      <a href = "{{event.code}}" class = "btn btn--info">Code</a>
+      [Code]({{event.code}}){: .btn .btn--info}
     {% endif %}
 

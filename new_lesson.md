@@ -11,7 +11,7 @@ layout: single
 {% for event in sorted_events %}
     {% capture date %}{{ event.date | date: '%s'}}{% endcapture %}
      {% if date < now_moment and event.event_type == "workshop" %}
-      {% include events.html %}
+      {% include past_events.html %}
       {% endif %}
 {% endfor %}
 
