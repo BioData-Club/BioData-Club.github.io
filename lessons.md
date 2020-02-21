@@ -3,10 +3,12 @@ title: Lesson Material
 layout: splash
 ---
 
-Here are past topics and workshops from BioData Club, sorted by Date they were given. If you want us to do another workshop, please let us know!
+# Workshops
+
+Here are past topics and workshops from BioData Club, sorted by Date they were given. If you want us to do another workshop, [please let us know](https://biodata-club.github.io/teaching/)!
 
 {% assign sorted_events = site.events | sort: 'date' | reverse %}
-{% capture now_moment %}{{ "today" | date: '%s' }}{% endcapture %}
+{% capture now_moment %}{{ "today" | date: '%s' | plus: 0 }}{% endcapture %}
 
 {% for event in sorted_events %}
     {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
