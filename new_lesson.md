@@ -1,6 +1,6 @@
 ---
 title: Lesson Material
-layout: splash
+layout: single
 ---
 
 # Events/Workshops by Date
@@ -11,7 +11,7 @@ layout: splash
 {% for event in sorted_events %}
     {% capture date %}{{ event.date | date: '%s'}}{% endcapture %}
      {% if date < now_moment and event.event_type == "workshop" %}
-      {% include past_events.html %}
+      {% include events.html %}
       {% endif %}
 {% endfor %}
 
