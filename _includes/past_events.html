@@ -1,8 +1,9 @@
-<section class="page__share">
+<div class="{{ include.type | default: "list" }}__item">
 <h2 class="archive__item-title">{{ event.title }}</h2>
 {% if event.description %}
 {{ event.description | markdownify }}
 {% endif %}
+<section class="page__share">
 {% if event.recording %}
 <a href="{{ event.recording }}" class="btn btn--info">Recording</a>
 {% endif %}
@@ -13,3 +14,4 @@
 <a href="{{event.code}}" class="btn btn--info">Code</a>
 {% endif %}
 </section>
+</div>
