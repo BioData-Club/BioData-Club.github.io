@@ -14,9 +14,10 @@
    {% assign event_location_url = event.location_url %}
  {% endif %}
 
-    <h2 >{{ event_title }}</h2>
+    <h2 class="archive__item-title">{{ event_title }}</h2>
     {% if event_description %}
-    <p>{{ event_description }}</p>
+    <p class="archive__item-excerpt">{{ event_description }}</p>
+    <br>
     {% endif %}
     {% if event.recording %}
       [Recording]({{event.recording}}){: .btn .btn--info}
