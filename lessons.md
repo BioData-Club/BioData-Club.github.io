@@ -1,11 +1,9 @@
 ---
 title: Lesson Material
-layout: single
+layout: splash
 ---
 
 Here are past topics and workshops from BioData Club, sorted by Date they were given. If you want us to do another workshop, please let us know!
-
-# Workshops
 
 {% include feature_row id="events" type = "center" %}
 {% assign sorted_events = site.events | sort: 'date' | reverse %}
