@@ -5,6 +5,9 @@
  {% if event.description %}
    {% assign event_description = event.description %}
  {% endif %}
+  {% else %}
+     {% assign event_description = nil %}
+  {% endif %}
  {% if event.link %}
    {% assign event_link = event.link %}
   {% else %}
