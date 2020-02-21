@@ -15,9 +15,9 @@
  {% endif %}
 
 
-    <h2 class="archive__item-title">{{ event_title }}</h2>
+    <h2 >{{ event_title }}</h2>
     {% if event_description %}
-    <p class="archive__item-excerpt" itemprop="description">{{ event_description }}</p>
+    <p>{{ event_description }}</p>
     {% endif %}
     {% if event.recording %}
       <a href = "{{event.recording}}" class = "btn btn--info">Recording</a>
