@@ -1,6 +1,6 @@
 ---
 title: Lesson Material
-layout: single
+layout: default
 ---
 
 # Events/Workshops by Date
