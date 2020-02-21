@@ -16,7 +16,7 @@
 
     <h2 class="archive__item-title">{{ event_title }}</h2>
     {% if event_description %}
-    <p class="archive__item-excerpt">{{ event_description | markdownify }}</p>
+        <p class="archive__item-excerpt" itemprop="description">Description:{{ event_description | markdownify }}</p>
     <br>
     {% endif %}
     {% if event.recording %}
