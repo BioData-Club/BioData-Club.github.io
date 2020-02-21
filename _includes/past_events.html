@@ -16,11 +16,23 @@
  {% if event.recording %}
     {% assign event_recording = event.recording %}
   {% endif %}
+  {% else %}
+     {% assign event_recording = nil %}
+  {% endif %}
+  
  {% if event.slides %}
     {% assign event_slides = event.slides %}
   {% endif %}
+    {% else %}
+     {% assign event_slides = nil %}
+  {% endif %}
+
+  
  {% if event.code %}
     {% assign event_code = event.code %}
+  {% endif %}
+    {% else %}
+     {% assign event_code = nil %}
   {% endif %}
 
 
