@@ -1,4 +1,6 @@
+
 <div class="{{ include.type | default: "list" }}__item">
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 <h2 class="archive__item-title">{{ event.title }}</h2>
 {% if event.description %}
 {{ event.description | markdownify }}
@@ -14,4 +16,5 @@
 <a href="{{event.code}}" class="btn btn--info">Code</a>
 {% endif %}
 </section>
+</article>
 </div>
