@@ -1,6 +1,6 @@
 ---
 title: Workshop and Discussion Materials
-layout: default
+layout: single
 toc: true
 past_events:
   - title: "Workshop and Discussion Materials"
