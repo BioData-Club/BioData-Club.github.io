@@ -1,10 +1,8 @@
 ---
-title: Lesson Materials
+title: Workshop and Discussion Materials
 layout: splash
 toc: true
 ---
-
-# Workshops and Lesson Materials
 
 Here are past topics and workshops from BioData Club, sorted by the date they were given. 
 
@@ -32,7 +30,7 @@ This was a four part course that is free that introduces everyone to visualizing
 
 # Discussion Topics
 
-This is a list of discussion topics and talks hosted by BioData Club that we think have been successful and may be of interest.
+This is a list of discussion topics and talks hosted by BioData Club that we think have been successful and may be of interest
 
 + [Good Enough Practices For Scientific Computing](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) 
   
