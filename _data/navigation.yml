@@ -3,7 +3,7 @@ main:
   - title: "Events"
     url: "/#events"
   - title: "Materials"
-    url: /Materials/
+    url: /materials/
   - title: "Code of Conduct"
     url: /code_of_conduct/
   - title: "About"
