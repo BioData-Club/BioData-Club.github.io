@@ -1,7 +1,6 @@
 ---
 title: Workshop and Discussion Materials
 layout: single
-toc: true
 past_events:
   - title: "Workshop and Discussion Materials"
     excerpt: "Here are past topics and workshops from BioData Club, sorted by the date they were given.<br><br>If you want us to do another workshop, [please let us know](https://biodata-club.github.io/teaching/)!"
