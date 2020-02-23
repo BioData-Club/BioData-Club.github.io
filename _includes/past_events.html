@@ -6,7 +6,7 @@
 {% if event.description %}
 {{ event.description | markdownify | strip_html }}
 {% endif %}
-<section class="page__share">
+<p>
 {% if event.recording %}
 <a href="{{ event.recording }}" class="btn btn--info">Recording</a>
 {% endif %}
@@ -16,6 +16,6 @@
 {% if event.code %}
 <a href="{{event.code}}" class="btn btn--info">Code</a>
 {% endif %}
-</section>
+</p>
 </article>
 </div>
