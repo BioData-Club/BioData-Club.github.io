@@ -3,7 +3,6 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemtype="http://schema.org/CreativeWork">
      <h2 class="archive__item-title">{{ event.title | markdownify | remove: "<p>" | remove: "</p>" }}</h2>
-  <p class="page__meta">{{event.date | date: "%B %d, %Y"}}</p>
 {% if event.description %}
 {{ event.description | markdownify | strip_html }}
 {% endif %}
