@@ -2,8 +2,8 @@
 main:
   - title: "Events"
     url: "/#events"
-  - title: "Lessons"
-    url: /lessons/
+  - title: "Materials"
+    url: /Materials/
   - title: "Code of Conduct"
     url: /code_of_conduct/
   - title: "About"
