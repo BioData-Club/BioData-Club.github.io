@@ -1,5 +1,5 @@
 ---
-title: "Python, SQL, and Pandas: Oh My"
+title: "Python, SQL, and Pandas: Oh My!"
 date: 2019-06-21
 event_type: workshop
 presenters: ["Lucille Moore", "Daniel Yeager"]
