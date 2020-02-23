@@ -1,6 +1,7 @@
 ---
 title: Code of Conduct
 layout: single
+toc: true
 ---
 
 ## 1. Purpose
