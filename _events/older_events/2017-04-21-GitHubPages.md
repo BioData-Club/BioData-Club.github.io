@@ -1,6 +1,6 @@
 ---
 title: GitHub Pages
-event_type: workshop
+event_type: 
 text: Bring your Laptop and Setup your professional website using GitHub Pages! No coding required!
 location: BICC429
 link: https://github.com/BioData-Club/githubPagesTutorial
