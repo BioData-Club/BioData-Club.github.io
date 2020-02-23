@@ -3,11 +3,11 @@ title: Workshop and Discussion Materials
 layout: default
 toc: true
 past_events:
-  - title: ""
+  - title: "Workshop and Discussion Materials"
     excerpt: "Here are past topics and workshops from BioData Club, sorted by the date they were given.<br><br>If you want us to do another workshop, [please let us know](https://biodata-club.github.io/teaching/)!"
 ---
 {% include feature_row %}
-{% include feature_row id="past_events" type = "center" %}
+{% include feature_row id="past_events" type = "right" %}
 
 {% assign sorted_events = site.events | sort: 'date' | reverse %}
 {% capture now_moment %}{{ "today" | date: '%s'}}{% endcapture %}
