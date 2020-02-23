@@ -1,9 +1,6 @@
 <div class="{{ include.type | default: "list" }}__item">
 <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 <h2 class="archive__item-title">{{ event.title }}</h2>
-{% if event.date %}
-Date Given: {{ event.date | date: "%B %d, %Y" }}
-{% endif %}
 {% if event.description %}
 {{ event.description | markdownify }}
 {% endif %}
