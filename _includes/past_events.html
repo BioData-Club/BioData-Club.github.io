@@ -3,7 +3,7 @@
   <article class="archive__item" itemtype="http://schema.org/CreativeWork">
      <h2 class="archive__item-title">{{ event.title | markdownify | strip_html }}</h2>
  {% if event.presenters %}
-    <p class="comment__author">Presented by: {{ event.presenters | join " " }}</p>
+    <p class="comment__author">Presented by: {{ event.presenters | join " and " }}</p>
  {% endif %}
 <p class="comment__date"> {{ event.date | date: "%B %d, %Y" }}</p>
 <p>
