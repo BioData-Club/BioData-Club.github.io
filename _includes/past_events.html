@@ -5,8 +5,8 @@
 {% if event.presenters %}
     <p class="comment__author">Presented by: {{ event.presenters | join: ", " }}</p>
  {% endif %}
-<p>
 <p class="comment__date"> {{ event.date | date: "%B %d, %Y" }}</p>
+<p>
 {% if event.recording %}
 <a href="{{ event.recording }}" class="btn btn--info">Recording</a>
 {% endif %}
