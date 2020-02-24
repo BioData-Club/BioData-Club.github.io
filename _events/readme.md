@@ -34,6 +34,8 @@ link: "post a link to the RSVP survey"
 
 ## Some tips
 
-Be careful that you keep the space between the field name and the field value. That is, make sure you've typed `code: http://github.com/` instead of `code:http://github.com`.
+Be careful that you keep the space between the field name and the field value. 
+
+That is, make sure you've typed `code: http://github.com/` instead of `code:http://github.com`.
 
 If you have double quotes (`"`) in your entry, make sure to escape them `\"` because the parser will get confused.
