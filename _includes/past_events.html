@@ -13,10 +13,10 @@
 <a href="{{event.code}}" class="btn btn--info">Code</a>
 {% endif %}
 </p>
-<p class="comment__date"> {{ event.date | date: "%B %d, %Y" }}</p>
  {% if event.presenters %}
     <p class="comment__author">Presented by: {{ event.presenters | join: ", " }}</p>
  {% endif %}
+<p class="comment__date"> {{ event.date | date: "%B %d, %Y" }}</p>
 {% if event.description %}
 {{ event.description | markdownify | strip_html }}
 {% endif %}
