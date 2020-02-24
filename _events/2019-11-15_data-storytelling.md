@@ -2,6 +2,7 @@
 title: "Data Storytelling"
 date: 2019-11-15
 event_type: workshop
+presenters: ["Ted Laderas"]
 time: "4-5:30 PM"
 location: "BICC 124"
 location_url: https://www.ohsu.edu/map/?id=439#!m/32185
