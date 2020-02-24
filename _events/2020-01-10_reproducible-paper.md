@@ -2,6 +2,7 @@
 title: "How to Make a Reproducible Paper"
 event_type: workshop
 date: 2020-01-10
+presenters: ["Aurora Blucher", "Ted Laderas"]
 time: "4:30-6:00 PM"
 location: "BICC 124"
 location_url: https://www.ohsu.edu/map/?id=439#!m/32185
