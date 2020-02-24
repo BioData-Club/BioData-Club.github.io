@@ -2,6 +2,7 @@
 title: "Data Scavenger Hunt"
 date: 2019-01-25
 event_type: workshop
+presenters: ["Ted Laderas", "Jessica Minnier", "Thomas Frohwein"]
 keywords: ["Visualization", "Exploratory Data Analysis"]
 time: "4:30 - 6:00 PM"
 location: "BICC 124"
