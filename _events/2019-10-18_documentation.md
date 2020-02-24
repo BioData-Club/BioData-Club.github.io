@@ -2,6 +2,7 @@
 title: "Data and Project Documentation with Read the Docs"
 date: 2019-10-18
 time: "4-5:30 PM"
+presenters: ["Robin Champieux", "Eric Earl"]
 event_type: workshop
 location: "BICC 124"
 location_url: https://www.ohsu.edu/map/?id=439#!m/32185
