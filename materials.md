@@ -2,9 +2,7 @@
 title: Workshop and Discussion Materials
 layout: single
 ---
-Here are past discussion topics and workshops from BioData Club, sorted by the date they were given.
-
-If you want us to do another workshop, [please let us know](https://biodata-club.github.io/teaching/)!
+Here are past discussion topics and workshops from BioData Club, sorted by the date they were given. Where possible, we have linked to recordings, presentations, and code.
 
 {% assign sorted_events = site.events | sort: 'date' | reverse %}
 {% capture now_moment %}{{ "today" | date: '%s'}}{% endcapture %}
@@ -15,10 +13,6 @@ If you want us to do another workshop, [please let us know](https://biodata-club
       {% include past_events.html %}
       {% endif %}
 {% endfor %}
-
-## [Git for Collaboration](https://github.com/probinso/introduction-git)
-
-This is a workshop introducing you to Git and GitHub. Learn the basics of Git by sorting panels from Edward Gorey's *Gashlycrumb Tinies*. In order to host the talk, please refer to these [setup/management scripts](https://github.com/probinso/ABC).
 
 # Educational Resources
 
