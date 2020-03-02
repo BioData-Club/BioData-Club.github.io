@@ -2,7 +2,7 @@
 title: "Git for Collaboration"
 date: 2018-10-05 # Make sure the date is in this format
 time: "4:00 - 5:30 PM" #Time is Human readable
-event_type: "" # either "workshop", "discussion", or "social" 
+event_type: "workshop" # either "workshop", "discussion", or "social" 
 presenters: ["Philip Robinson"] # put multiple presenters in brackets, separated by comma
 keywords: ["version control", "Data"] #These should come from taxonomy
 location: "Choose a location that facilitates discussion and co-learning.  This means thinking about not only the technology a space provides, but also the face-to-face interaction it will allow" #Try to keep this entry on a single line
