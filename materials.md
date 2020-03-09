@@ -1,6 +1,7 @@
 ---
 title: Workshop and Discussion Materials
 layout: single
+toc: true
 ---
 Here are past discussion topics and workshops from BioData Club, sorted by the date they were given. Where possible, we have linked to recordings, presentations, and code.
 
