@@ -6,11 +6,7 @@ event_type: "workshop"
 presenters: "Sami Friedrich" 
 keywords: ["python", "webscraping", "html", "data extraction", "web harvesting"] 
 location: "virtual"
-description: "The internet is overflowing with data ripe for harvesting. The challenge is that not all of that data is formatted neatly or easily accessible. Enter the web scraping multitool! With the power of web scraping, the contents of virtually any webpage can be transformed into analysis-ready data. During this workshop, you’ll learn using python how to:
- 
-1. Scavenge the contents of an HTML webpage
-2. Extract only the data you want
-3. Format the data into a table
+description: "The internet is overflowing with data ripe for harvesting. The challenge is that not all of that data is formatted neatly or easily accessible. Enter the web scraping multitool! With the power of web scraping, the contents of virtually any webpage can be transformed into analysis-ready data. During this workshop, you’ll learn using python how to scavenge the contents of an HTML webpage, extract only the data you want, and format the data into a table
  
 Web scraping is exciting not only because it feels like you’re hacking the internet, it also makes you a more resourceful data scientist by allowing you to build novel datasets from a wider array of sources. Web scraping also lends itself to automation, enabling you to update dynamic datasets over time with minimal effort.
  
