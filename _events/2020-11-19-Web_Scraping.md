@@ -5,10 +5,8 @@ time: "3:00 - 5:00 PM"
 event_type: "workshop"
 presenters: "Sami Friedrich" 
 keywords: ["python", "webscraping", "html", "data extraction", "web harvesting"] 
-location: "virtual, please register in advance: Please register in advance:  https://ohsu.ca1.qualtrics.com/jfe/form/SV_6GuPNMROkGEhJat"
-description: "The internet is overflowing with data ripe for harvesting. The challenge is that not all of that data is formatted neatly or easily accessible. Enter the web scraping multitool! With the power of web scraping, the contents of virtually any webpage can be transformed into analysis-ready data. During this workshop, you’ll learn using python how to scavenge the contents of an HTML webpage, extract only the data you want, and format the data into a table.
-
-Please register in advance:  https://ohsu.ca1.qualtrics.com/jfe/form/SV_6GuPNMROkGEhJat
+location: "virtual"
+description: "The internet is overflowing with data ripe for harvesting. The challenge is that not all of that data is formatted neatly or easily accessible. Enter the web scraping multitool! With the power of web scraping, the contents of virtually any webpage can be transformed into analysis-ready data. During this workshop, you’ll learn using python how to scavenge the contents of an HTML webpage, extract only the data you want, and format the data into a table.  Please register in advance:  https://ohsu.ca1.qualtrics.com/jfe/form/SV_6GuPNMROkGEhJat
 # The following should be filled out post workshop - please uncomment them when you do
 #slides: ""  #url for presenter slides
 #code: "" #url for code repository
